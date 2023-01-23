@@ -1,0 +1,64 @@
+ @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+ .selectable {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: solid;
+    border-color: rgb(65, 80, 108);
+    border-radius: 10px;
+    margin: 5px;
+    align-items: center;
+    margin-bottom: 45px;
+    background-color: rgb(205, 236, 255);
+}
+
+.body{
+    font-family: 'Teko', sans-serif;
+    /* font-size: 45px; */
+/* background-color: rgb(181, 232, 255); */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    background-color: rgb(65, 80, 108);
+    font-family: 'Teko', sans-serif;
+}
+
+.nav {
+    padding: 15px;
+    color: black;
+}
+
+.nav-item {
+    background-color: rgb(181, 232, 255);
+    border: solid;
+    border-color: rgb(107, 172, 233);
+    margin: 10px;
+    padding-inline: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.nav-item:hover {
+    background-color:rgb(107, 172, 233);
+    border-color: rgb(181, 232, 255);
+}
+
+.selectableText {
+    color: rgb(48, 80, 155);
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.selectableText:hover {
+    visibility: visible;
+}
+
+figcaption{
+    font: 20px;
+}
