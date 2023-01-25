@@ -2,9 +2,9 @@ import React from 'react';
 
 export default function Home() {
   return (
-    <div class='body'>
+    <div class='body' style={{textAlign:'center'}}>
       {/* <img src=''></img> */}
-      <h1>
+      <h1 style={{margin:'25px'}}>
         Hello! I'm an amatuer web developer interested in the tech industry and gaming.
       </h1>
       <h2>How I got started</h2>

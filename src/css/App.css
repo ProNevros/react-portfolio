@@ -15,8 +15,7 @@
 
 .body{
     font-family: 'Teko', sans-serif;
-    /* font-size: 45px; */
-/* background-color: rgb(181, 232, 255); */
+    font-size: 25px;
 }
 
 .header {
@@ -26,26 +25,44 @@
     padding-left: 3%;
     background-color: rgb(65, 80, 108);
     font-family: 'Teko', sans-serif;
+    padding: 10px;
 }
 
-.nav {
+.navi {
     padding: 15px;
-    color: black;
 }
 
-.nav-item {
+.tab{
     background-color: rgb(181, 232, 255);
     border: solid;
     border-color: rgb(107, 172, 233);
-    margin: 10px;
-    padding-inline: 20px;
+    margin: 15px;
+    padding-inline: 25px;
     border-radius: 20px;
-    font-size: 20px;
+    text-decoration: none;
+    color: black;
+
 }
 
-.nav-item:hover {
+.tab:hover {
     background-color:rgb(107, 172, 233);
     border-color: rgb(181, 232, 255);
+    color: beige;
+}
+
+.tab-active {
+    background-color:rgb(107, 172, 233);
+    border: solid;
+    border-color: rgb(181, 232, 255);
+    margin: 10px;
+    padding-inline: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: beige;
+}
+
+.tab-active:hover{
+    color: beige;
 }
 
 .selectableText {
@@ -53,10 +70,6 @@
     font-size: 30px;
     text-align: center;
     
-}
-
-.selectableText:hover {
-    visibility: visible;
 }
 
 figcaption{
