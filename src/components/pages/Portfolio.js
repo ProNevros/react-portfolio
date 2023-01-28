@@ -3,7 +3,7 @@ import React from 'react';
 export default function Portfolio() {
   return (
     <div class="body">
-      <h1 style={{textAlign:'center', margin:'25px'}}>These are the projects I've worked on! All of them are a work in progress; and there's things I would like to add in the future</h1>
+      <h1 style={{textAlign:'center', margin:'25px', textDecorationLine:'underline'}}>These are the projects I've worked on! All of them are a work in progress; and there's things I would like to add in the future</h1>
       <div>
         <div class='selectable'>
           <figure class="figure">

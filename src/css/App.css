@@ -75,3 +75,16 @@
 figcaption{
     font: 20px;
 }
+
+section{
+    border-inline: 0px;
+    border-top: 0px;
+    border-style:solid;
+    border-color: rgb(65, 80, 108);
+    margin-top:50px;
+}
+
+.icon-link{
+    height: 200px;
+    width: 200px;
+}
