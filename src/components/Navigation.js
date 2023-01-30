@@ -5,7 +5,7 @@ import React from 'react';
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <div className="header">
-      <div style={{fontSize:'50px', paddingInline:'10px', borderRadius:'5px'}}>Jose Leyva</div>
+      <div style={{fontSize:'50px', paddingInline:'10px', borderRadius:'5px'}}>José Leyva</div>
       <div className="navi" style={{display:'flex', fontSize:'25px'}}>
         <div>
           <a

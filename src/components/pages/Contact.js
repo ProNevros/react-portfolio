@@ -2,13 +2,9 @@ import React from 'react';
 
 export default function Links() {
   return (
-    <div class="body pt-6 p-8 pl-2 md:pl-8 text-left space-y-4">
-      <h1>
-        Helo World! I'm José Leyva. Like these other fine lads I began about a month before this
-        project started. The journey is rough and headache inducing; but getting those lines of
-        code to work aftert hours of struggling is one of the greatest feelings as a developer. I'm still
-        struggling with javascript; but I'm doing my best to pick it up ASAP to be on the level of
-        my classmates and fellow coders. NICE CODE.
+    <div class="body" style={{textAlign:'center'}}>
+      <h1 style={{ margin: '25px', textDecorationLine: 'underline', textAlign:'c'}}>
+        You can find me, and reach out to me here! ProNevros or just Nevros is an online handle I go by, as well.
       </h1>
       <div>
           <a  href="https://github.com/ProNevros">
@@ -21,6 +17,8 @@ export default function Links() {
               alt="First Project">
             </img>
           </a>
+          <img className='icon-link' src="images/gmail_logo.png" alt="Gmail" onClick={() => window.location = 'mailto:jrleyva41096@gmail.com'}></img>
+          <p style={{fontSize:'10px'}}>(I'm sure I'll be able to add more places in the future)</p>
       </div>
     </div>
   );
