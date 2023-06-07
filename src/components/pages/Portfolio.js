@@ -15,7 +15,7 @@ export default function Portfolio() {
             </a>
             <figcaption class="figure-caption" style={{ fontSize: '30px', textAlign: 'center' }}>Steamy Scoops</figcaption>
           </figure>
-          <p class='selectableText' style={{ paddingLeft: '5px' }}>This was my bootcamp's first project in the course. Our group's primary goal was to shocase our understanding
+          <p class='selectableText' style={{ paddingLeft: '5px' }}>This was my bootcamp's first project in the course. Our group's primary goal was to showcase our understanding
             of APIs and how to use their data, as well as putting our CSS understanding to the test to provide a polished UI.
             This application was a simple concept to bring users recent news and videos about the game they searched. The news
             articles and videos are populated using Steam and YouTube APIs, respectively. I was tasked with UI elements and
