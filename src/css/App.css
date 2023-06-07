@@ -1,100 +1,119 @@
  @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
-
- .selectable {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border: solid;
-    border-color: rgb(65, 80, 108);
-    border-radius: 10px;
-    margin: 5px;
-    align-items: center;
-    margin-bottom: 45px;
-    background-color: rgb(205, 236, 255);
-}
-
-.body{
-    font-family: 'Teko', sans-serif;
-    font-size: 25px;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 3%;
-    background-color: rgb(65, 80, 108);
-    font-family: 'Teko', sans-serif;
-    padding: 10px;
-}
-
-.navi {
-    padding: 15px;
-}
-
-.tab{
-    background-color: rgb(181, 232, 255);
-    border: solid;
-    border-color: rgb(107, 172, 233);
-    margin: 10px;
-    padding-inline: 25px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: black;
-
-}
-
-.tab:hover {
-    background-color:rgb(107, 172, 233);
-    border-color: rgb(181, 232, 255);
-    color: beige;
-}
-
-.tab-active {
-    background-color:rgb(107, 172, 233);
-    border: solid;
-    border-color: rgb(181, 232, 255);
-    margin: 10px;
-    padding-inline: 25px;
-    border-radius: 20px;
-    text-decoration: none;
-    color: beige;
-}
-
-.tab-active:hover{
-    color: beige;
-}
-
-.selectableText {
-    color: rgb(48, 80, 155);
-    font-size: 30px;
-    text-align: center;
+ 
+ .body {
+     font-family: 'Teko', sans-serif;
+     font-size: 25px;
+ }
+ 
+ .header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 3%;
+     background-color: rgb(65, 80, 108);
+     font-family: 'Teko', sans-serif;
+     padding: 10px;
+     position: fixed;
+     top: 0;
+     width: 100%
+    }
     
-}
+    .navi {
+        padding: 15px;
+ }
 
-figcaption{
-    font: 20px;
-}
+ .tab {
+     background-color: rgb(181, 232, 255);
+     border: solid;
+     border-color: rgb(107, 172, 233);
+     margin: 10px;
+     padding-inline: 25px;
+     border-radius: 20px;
+     text-decoration: none;
+     color: black;
+     
+    }
+    
+ .tab:hover {
+     background-color: rgb(107, 172, 233);
+     border-color: rgb(181, 232, 255);
+     color: beige;
+    }
+    
+    .tab-active {
+        background-color: rgb(107, 172, 233);
+        border: solid;
+        border-color: rgb(181, 232, 255);
+        margin: 10px;
+        padding-inline: 25px;
+        border-radius: 20px;
+        text-decoration: none;
+        color: beige;
+    }
+    
+    .tab-active:hover {
+        color: beige;
+    }
 
-section{
-    border-inline: 0px;
-    border-top: 0px;
-    border-style:solid;
-    border-color: rgb(65, 80, 108);
-    margin-top:50px;
-}
+    .selectable {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        border: solid;
+        border-color: rgb(65, 80, 108);
+        border-radius: 10px;
+        margin: 5px;
+        align-items: center;
+        margin-bottom: 45px;
+        background-color: rgb(205, 236, 255);
+        max-width: 75%; /* Adjust the original width of the element */
+        transition: max-width .5s ease;
+        position: static;
+      }
+      
+      .selectable:hover {
+        max-width: 100%; /* Adjust the expanded width of the element */
+      }
+      
+      .selectableText {
+        color: rgb(48, 80, 155);
+        font-size: 30px;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+        word-wrap: break-word;
+        transition: max-width 0.5s ease;
+        max-width: 0;
+      }
+      
+      .selectable:hover .selectableText {
+        max-width: 100%; /* Adjust the width to allow the text to expand */
+      }
+    
+    figcaption {
+        font: 20px;
+    }
+    
+    section {
+        border-inline: 0px;
+        border-top: 0px;
+        border-style: solid;
+        border-color: rgb(65, 80, 108);
+        margin-top: 50px;
+    }
+    
+ .icon-link {
+     height: 200px;
+     width: 200px;
+     background-color: rgb(205, 236, 255);
+     border: solid;
+     border-color: rgb(65, 80, 108);
+     border-radius: 10px;
+     margin: 5px;
+     ;
+ }
 
-.icon-link{
-    height: 200px;
-    width: 200px;
-    background-color: rgb(205, 236, 255);
-    border: solid;
-    border-color: rgb(65, 80, 108);
-    border-radius: 10px;
-    margin: 5px;;
-}
-
-.icon-link:active{
-    box-shadow: black;
-    box-shadow: 10px;
-}
+ .icon-link:active {
+     box-shadow: black;
+     box-shadow: 10px;
+ }
